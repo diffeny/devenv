@@ -4,7 +4,19 @@
     "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {
       "shallowClone": true
     },
-    "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {}
+    // "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {},
+    "ghcr.io/devcontainers/features/terraform:latest": {},
+		"ghcr.io/devcontainers/features/aws-cli:latest": {},
+		"ghcr.io/devcontainers/features/azure-cli:latest": {
+      "extensions": "azure-devops"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {
+	    "installZsh": true,
+	    "configureZshAsDefaultShell": true,
+	    "installOhMyZsh": true,
+	    "installOhMyZshConfig": true,
+	    "upgradePackages": true,
+    }
   },
   "customizations": {
 
