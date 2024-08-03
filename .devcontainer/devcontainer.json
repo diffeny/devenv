@@ -7,11 +7,15 @@
     "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {}
   },
   "customizations": {
-    "terminal.integrated.defaultProfile.linux": "zsh",
+
     "vscode": {
       "extensions": [
         "GitHub.copilot"
-      ]
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh",
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      }
     }
   }
 }
