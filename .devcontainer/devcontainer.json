@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
   "features": {
     "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {
       "shallowClone": true
