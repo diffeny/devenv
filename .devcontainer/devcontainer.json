@@ -15,7 +15,7 @@
 	    "configureZshAsDefaultShell": true,
 	    "installOhMyZsh": true,
 	    "installOhMyZshConfig": true,
-	    "upgradePackages": true,
+	    "upgradePackages": true
     }
   },
   "customizations": {
