@@ -10,6 +10,7 @@
 		"ghcr.io/devcontainers/features/azure-cli:latest": {
       "extensions": "azure-devops"
     },
+    "ghcr.io/robbert229/devcontainer-features/opentofu:1": {},
     "ghcr.io/devcontainers/features/common-utils:2": {
 	    "installZsh": true,
 	    "configureZshAsDefaultShell": true,
