@@ -4,16 +4,17 @@
 //		"ghcr.io/devcontainers/features/terraform:latest": {},
 //		"ghcr.io/devcontainers/features/aws-cli:latest": {},
 //		"ghcr.io/devcontainers/features/azure-cli:latest": {},
-        "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {
-		"shallowClone": true
-	}
+	        "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {
+			"shallowClone": true
+		},
+		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {}
 	},
 	"customizations": {
-        "terminal.integrated.defaultProfile.linux": "zsh",
-		"vscode": {
-			"extensions": [
-				"GitHub.Copilot"
-			]
-		}
+	        "terminal.integrated.defaultProfile.linux": "zsh",
+			"vscode": {
+				"extensions": [
+					"GitHub.Copilot"
+				]
+			}
 	}
 }
