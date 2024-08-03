@@ -1,10 +1,9 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	// "dockerFile": "Dockerfile",
 	"features": {
-		"ghcr.io/devcontainers/features/terraform:latest": {},
-		"ghcr.io/devcontainers/features/aws-cli:latest": {},
-		"ghcr.io/devcontainers/features/azure-cli:latest": {},
+//		"ghcr.io/devcontainers/features/terraform:latest": {},
+//		"ghcr.io/devcontainers/features/aws-cli:latest": {},
+//		"ghcr.io/devcontainers/features/azure-cli:latest": {},
         "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
 	},
 	"customizations": {
@@ -12,7 +11,6 @@
 		"vscode": {
 			"extensions": [
 				"GitHub.Copilot"
-
 			]
 		}
 	}
