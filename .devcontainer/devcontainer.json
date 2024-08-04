@@ -27,7 +27,8 @@
       ],
       "settings": {
         "terminal.integrated.shell.linux": "/bin/zsh",
-        "terminal.integrated.defaultProfile.linux": "zsh"
+        "terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.fontFamily": "MesloLGS NF"
       }
     }
   }
